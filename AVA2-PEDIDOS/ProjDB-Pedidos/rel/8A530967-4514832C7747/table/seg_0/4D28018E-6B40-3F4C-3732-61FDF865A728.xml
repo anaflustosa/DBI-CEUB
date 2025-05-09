@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D28018E-6B40-3F4C-3732-61FDF865A728" name="Vendedor">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>D905AA96-41E9-9033-4CC4-0C8ACEB436E5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matriculafVendedopr" id="ED5FF08A-10A1-BB7C-58F9-B52208C12E30">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>09B2D51F-F274-52D1-40DA-BCF275A6AB76</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeVendedor" id="986CA56B-3EF8-1328-B31D-462A66E9633B">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>C4A9C4BE-85B7-3BE6-4A80-974B08DEB32E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="127A9673-2A5B-594B-FB03-3D2E4DCBDE1C" name="Vendedor_PK">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>4BEFE7B3-3673-97A3-6164-6CF64D140EEC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED5FF08A-10A1-BB7C-58F9-B52208C12E30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

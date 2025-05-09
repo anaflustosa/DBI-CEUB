@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3C34555-97D7-27C8-9754-A19561EADFC0" containerWithKeyObject="D8B48EF6-8074-24A8-1DBF-997721624DBC" localFKIndex="676D99A7-53E2-684F-EFAE-BE2B4B36A427" name="Pedidos_Clinete_FK">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>C19C67BC-8A2A-DC66-8514-7D6A96283FDB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referredTableLongName>Clinete</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B45F305F-2EA3-224A-187E-39DDAB35ABB6</referredTableID>
+<keyObject>9860D589-C46A-A311-1149-CBDD0C94E3D6</keyObject>
+<referredKeyID>9860D589-C46A-A311-1149-CBDD0C94E3D6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfCliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

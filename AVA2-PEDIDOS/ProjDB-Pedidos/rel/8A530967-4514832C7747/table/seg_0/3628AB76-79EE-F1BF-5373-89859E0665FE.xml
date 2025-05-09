@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3628AB76-79EE-F1BF-5373-89859E0665FE" name="itensPedidos">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>725B0383-8819-587E-E32D-C9ACD6B2597F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificadorPedido" id="0745BAA6-2100-16D5-74EA-2F1989A63B3D">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>BDE7EC70-9B75-98C7-3821-FB48E47AE816</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroProduto" id="2A886DF7-22FB-E5EB-8EA9-E2DB16807D66">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<comment><![CDATA[Código de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>9C9377AB-2EE7-EF93-1CC2-D38731DF6D72</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeProduto" id="6FBF7CAB-E272-A8D7-A529-209AB619298F">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<comment><![CDATA[Nome de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>A3962AB2-50DB-D7B0-36DE-801DF641A299</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioProduto" id="7538A1C3-DE56-7820-08B5-97C4834113DB">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<comment><![CDATA[Preço unitário de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>6E2DAF41-6BFC-33CE-9474-1D83191B832A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="934BDCE5-F549-4964-83F1-84F90211784B">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<comment><![CDATA[Quantidade de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>949B7876-8F04-8922-51FE-18FC4F2AD9A2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_identificadorPedido" id="704D4D2D-A679-0ED9-4337-CDCBF0227927">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>EDCFF62B-22E9-752B-26A7-BAA039A670B9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B8D1FC9-D1B4-88A1-A906-241ADF5AB991" referredColumn="3E9540AA-D786-B452-3266-B305D609D48B"/>
+</associations>
+</Column>
+<Column name="Pedidos_Clinete_cpfCliente" id="616156BE-32BB-3A32-A498-422B762AB9B7">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>15B77ED0-6DDD-F4B9-39DC-69DD4D96407B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B8D1FC9-D1B4-88A1-A906-241ADF5AB991" referredColumn="6482541E-9B52-1026-C8AB-DC94B11F981A"/>
+</associations>
+</Column>
+<Column name="Pedidos_nomeClientePedido" id="B1F5F92A-5411-A057-6E5F-D6BCEA8C5A0F">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<generatorID>9A8C779F-5E47-CE4C-242B-A0BC71BF0DFF</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B8D1FC9-D1B4-88A1-A906-241ADF5AB991" referredColumn="5B7D7298-C4C5-1EE6-7363-2AA2D42B6E5D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7D07313-2143-D6ED-61B8-0ADFE3944FE6" name="itensPedidos_PK">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>5876DA5F-B70A-2C64-8EAE-73E3E157E07C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0745BAA6-2100-16D5-74EA-2F1989A63B3D"/>
+<colUsage columnID="2A886DF7-22FB-E5EB-8EA9-E2DB16807D66"/>
+<colUsage columnID="704D4D2D-A679-0ED9-4337-CDCBF0227927"/>
+<colUsage columnID="616156BE-32BB-3A32-A498-422B762AB9B7"/>
+<colUsage columnID="B1F5F92A-5411-A057-6E5F-D6BCEA8C5A0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AD1155D-1F7C-8820-F3FD-F99472767EA4" name="itensPedidos_Pedidos_FK">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>D036B17F-A9E4-A95F-DB4B-A01AE470C7E7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="704D4D2D-A679-0ED9-4337-CDCBF0227927"/>
+<colUsage columnID="616156BE-32BB-3A32-A498-422B762AB9B7"/>
+<colUsage columnID="B1F5F92A-5411-A057-6E5F-D6BCEA8C5A0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
