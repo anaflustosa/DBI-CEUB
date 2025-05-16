@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B45F305F-2EA3-224A-187E-39DDAB35ABB6" name="Clinete">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>912966B6-2302-0638-36C0-544BD26D4096</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="B80B95B3-5D9F-EB29-2BF1-A7808460B424">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>F553FE1B-0815-C4F8-9828-6B4BFE0E40BE</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="E6A29146-C26F-9A51-D34C-314A1CEADE47">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>A6850B37-C0C9-131F-951B-94CB32888F11</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9860D589-C46A-A311-1149-CBDD0C94E3D6" name="Clinete_PK">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-09 00:42:50 UTC</createdTime>
+<generatorID>11567C52-BADF-7CBE-1B73-90D7E3F95937</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B80B95B3-5D9F-EB29-2BF1-A7808460B424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

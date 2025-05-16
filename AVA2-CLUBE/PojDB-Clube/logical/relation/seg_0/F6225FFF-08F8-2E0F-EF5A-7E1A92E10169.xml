@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TitularDependentes" directorySegmentName="seg_0" id="F6225FFF-08F8-2E0F-EF5A-7E1A92E10169">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:17:08 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<sourcePk>11567C52-BADF-7CBE-1B73-90D7E3F95937</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>912966B6-2302-0638-36C0-544BD26D4096</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F51FDC2-44B6-17F8-FAC4-21032E75879B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

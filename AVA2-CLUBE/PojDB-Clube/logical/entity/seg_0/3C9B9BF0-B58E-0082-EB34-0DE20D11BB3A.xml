@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C9B9BF0-B58E-0082-EB34-0DE20D11BB3A" name="Telefones">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-15 22:47:16 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="5D8369FC-E8AF-5022-FA03-D09FA8C7FA8E">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-15 22:47:16 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="F6E2E11A-A0E1-91C1-F632-98FE9AD6C392">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-15 22:47:16 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefone" id="DAD0CBD9-2FA8-4611-56E6-2D3983CE8C9D">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-15 22:48:34 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="A0EFB02D-3E6C-C8AA-5C26-91059E692F63">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:18:23 UTC</createdTime>
+<generatorID>ECBD91E5-A276-8783-7F11-09A753E127E0</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<referedAttribute>F553FE1B-0815-C4F8-9828-6B4BFE0E40BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="BE3316F8-01DB-44D6-B4B8-2EC2CFFCB0D4">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:34:22 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>C6B6F50D-FE12-5ADC-8608-F556F1FF3282</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<referedAttribute>ADD4C557-3F6A-122F-0946-AA422A54D9F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="F49B59A8-E6DF-31B1-8DAF-BF15DEC128E3">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:34:22 UTC</createdTime>
+<generatorID>C6B6F50D-FE12-5ADC-8608-F556F1FF3282</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<referedAttribute>93D570C9-66CC-73E9-F013-1BFDAA0D8078</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1BB2E1D-6A62-050C-55BC-CD899DEFC113" name="Clinete PK">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-15 22:47:16 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D8369FC-E8AF-5022-FA03-D09FA8C7FA8E</attributeRef>
+<attributeRef>F6E2E11A-A0E1-91C1-F632-98FE9AD6C392</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

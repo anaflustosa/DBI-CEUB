@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="912966B6-2302-0638-36C0-544BD26D4096" name="Tiular">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-08 23:57:24 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="F553FE1B-0815-C4F8-9828-6B4BFE0E40BE">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-08 23:58:15 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="A6850B37-C0C9-131F-951B-94CB32888F11">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-08 23:58:39 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoTitular" id="F9DEDB40-3B13-CE83-8651-A5B8EA602B3E">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-15 23:27:41 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="EF725C29-3057-4018-675E-5E92371391AE">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:27:51 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>D8D5778D-3DE2-A41E-D9E0-3F4C951C4903</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<referedAttribute>5DEECB52-E7C4-A080-F8FD-02868FF9B2ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="F26C93AA-292D-4DE0-72D7-36345B2A11E3">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:33:26 UTC</createdTime>
+<generatorID>D8D5778D-3DE2-A41E-D9E0-3F4C951C4903</generatorID>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<referedAttribute>A80A731A-949E-6F25-C8D4-1EC6858DC5F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="11567C52-BADF-7CBE-1B73-90D7E3F95937" name="Clinete PK">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-08 23:59:10 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F553FE1B-0815-C4F8-9828-6B4BFE0E40BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

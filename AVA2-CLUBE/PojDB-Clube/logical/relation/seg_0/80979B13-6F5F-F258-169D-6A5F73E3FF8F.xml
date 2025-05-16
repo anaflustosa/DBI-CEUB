@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="80979B13-6F5F-F258-169D-6A5F73E3FF8F">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:28:06 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<sourcePk>37DD44CF-5B43-5C80-06DB-4A0F1EC7CADF</sourcePk>
+<targetPk>9BF0271B-218A-0578-3A19-4ED9D309014B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F51FDC2-44B6-17F8-FAC4-21032E75879B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>308479EE-16BA-5DEC-3BAC-415ABE9FB3B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

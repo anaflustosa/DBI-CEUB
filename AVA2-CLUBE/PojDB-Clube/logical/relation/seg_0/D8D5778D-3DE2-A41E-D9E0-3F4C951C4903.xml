@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TitularEndereco" directorySegmentName="seg_0" id="D8D5778D-3DE2-A41E-D9E0-3F4C951C4903">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:18:41 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<sourcePk>11567C52-BADF-7CBE-1B73-90D7E3F95937</sourcePk>
+<targetPk>9BF0271B-218A-0578-3A19-4ED9D309014B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>912966B6-2302-0638-36C0-544BD26D4096</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>308479EE-16BA-5DEC-3BAC-415ABE9FB3B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

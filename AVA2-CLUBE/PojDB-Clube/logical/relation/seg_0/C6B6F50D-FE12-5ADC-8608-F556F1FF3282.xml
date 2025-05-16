@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DependetesTelefone" directorySegmentName="seg_0" id="C6B6F50D-FE12-5ADC-8608-F556F1FF3282">
+<createdBy>ana.fl</createdBy>
+<createdTime>2025-05-16 00:34:22 UTC</createdTime>
+<ownerDesignName>PojDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8A530967-311D-C292-0256-4514832C7747" value="true"/>
+</engineerTo>
+<sourcePk>37DD44CF-5B43-5C80-06DB-4A0F1EC7CADF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F51FDC2-44B6-17F8-FAC4-21032E75879B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3C9B9BF0-B58E-0082-EB34-0DE20D11BB3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
